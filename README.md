@@ -48,27 +48,30 @@ Built with Windows Server 2022 and PowerShell.
 
 ## Skills Demonstrated
 
-Active Directory PowerShell Group Policy Windows Server 2022
-Azure AD Microsoft Intune Wazuh SIEM WireGuard VPN
-osTicket File Server Print Server Hybrid Identity
+Active Directory · PowerShell · Group Policy · Windows Server 2022
+Azure AD · Microsoft Intune · Wazuh SIEM · WireGuard VPN
+osTicket · File Server · Print Server · Hybrid Identity
 
 ## Screenshots
 
 ### Active Directory
-![AD Users](screenshots/AD-Users.png)
+![AD Users](AD-Users.png)
+![GPO Management](GPO-Management.png)
 
 ### Wazuh SIEM
-![Wazuh Agents](screenshots/Wazuh-Agents.png)
-![Wazuh Alerts](screenshots/Wazuh-Alerts.png)
+![Wazuh Agents](Wazuh-Agents.png)
+![Wazuh Alerts](Wazuh-Alerts.png)
 
 ### osTicket Help Desk
-![osTicket](screenshots/osTicket-Dashboard.png)
+![osTicket Dashboard](osTicket-Dashboard.png)
+![osTicket Ticket](osTicket-Ticket.png)
 
 ### Azure AD
-![Azure AD](screenshots/Azure-AD-Users.png)
+![Azure AD Users](Azure-AD-Users.png)
+![Azure PC01](Azure-PC01.jpg)
 
 ### WireGuard VPN
-![VPN](screenshots/WireGuard-Active.png)
+![VPN](WireGuard-Active.png)
 
-### Microsoft Intune
-![Intune](screenshots/Intune-Devices.png)
+### Network
+![Network Diagram](Network-Diagram.png)
