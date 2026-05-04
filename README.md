@@ -52,6 +52,33 @@ Active Directory · PowerShell · Group Policy · Windows Server 2022
 Azure AD · Microsoft Intune · Wazuh SIEM · WireGuard VPN
 osTicket · File Server · Print Server · Hybrid Identity
 
+## Troubleshooting & Lessons Learned
+
+---
+
+*   No internet on Ubuntu VMs
+    *   Cause: Default route was missing.
+    *   Solution: Executed sudo ip route add default via 192.168.0.1 dev enp0s8.
+
+*   Wazuh login failed
+    *   Cause: Special characters in the password caused authentication issues.
+    *   Solution: Reset the password using the wazuh-passwords-tool.sh utility.
+
+*   WireGuard UI blocked
+    *   Cause: The current user was not part of the local administrators group.
+    *   Solution: Added the user using net localgroup Administrators [user] /add.
+
+*   Azure AD Connect failed
+    *   Cause: ProtonMail addresses are not supported for this configuration.
+    *   Solution: Switched to an @outlook.com account to complete the sync.
+
+---
+
+## Hybrid Cloud Integration
+
+*   Microsoft Intune: Fully configured for MDM (Mobile Device Management) to enforce security policies on endpoints.
+*   Endpoint Enrollment: PC01 is successfully joined to the domain and enrolled in Azure AD, enabling seamless Single Sign-On (SSO) and cloud management.
+
 ## Screenshots
 
 ### Active Directory
