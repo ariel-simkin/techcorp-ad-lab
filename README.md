@@ -55,23 +55,23 @@ osTicket · File Server · Print Server · Hybrid Identity
 ## Screenshots
 
 ### Active Directory
-![AD Users](AD-Users.png)
-![GPO Management](GPO-Management.png)
+![AD Users](assets/AD-Users.png)
+![GPO Management](assets/GPO-Management.png)
 
 ### Wazuh SIEM
-![Wazuh Agents](Wazuh-Agents.png)
-![Wazuh Alerts](Wazuh-Alerts.png)
+![Wazuh Agents](assets/Wazuh-Agents.png)
+![Wazuh Alerts](assets/Wazuh-Alerts.png)
 
 ### osTicket Help Desk
-![osTicket Dashboard](osTicket-Dashboard.png)
-![osTicket Ticket](osTicket-Ticket.png)
+![osTicket Dashboard](assets/osTicket-Dashboard.png)
+![osTicket Ticket](assets/osTicket-Ticket.png)
 
 ### Azure AD
-![Azure AD Users](Azure-AD-Users.png)
-![Azure PC01](Azure-PC01.jpg)
+![Azure AD Users](assets/Azure-AD-Users.png)
+![Azure PC01](assets/Azure-PC01.jpg)
 
 ### WireGuard VPN
-![VPN](WireGuard-Active.png)
+![VPN](assets/WireGuard-Active.png)
 
 ### Network
-![Network Diagram](Network-Diagram.png)
+![Network Diagram](assets/Network-Diagram.png)
